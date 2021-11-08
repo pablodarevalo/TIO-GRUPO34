@@ -36,7 +36,7 @@ body{
     display: flex;
     flex-direction: row;
     font-size:20px;
-    color: white;
+    color: rgb(133, 18, 18);   /*cambie de blanco a rojo*/
     list-style: none;
     text-transform: uppercase;
     margin: 5px;
