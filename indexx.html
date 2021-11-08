@@ -4,9 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SEGURA CCTV- Vigilancia Informática</title>
+    <link rel="stylesheet" href="css/index_style.css">
 </head>
 <body>
+    <header class="hero">
+        <div class="header_container">
+            <nav class="nav">
+                <ul class="nav_item">
+                    <li class="nav_item"><a href="#">INICIO</a></li>
+                    <li class="nav_item"><a href="proyects.html" target="_blank">PROYECTOS</a></li>
+                    <li class="nav_item"><a href="#">QUIÉNES SOMOS</a></li> <!--debería hacer scroll pero creo no se puede poner class e id al  mismo elemento-->
+                    <li class="nav_item"><a href="contact.html" target="_blank">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <section class="hero_container">
+                <div class="hero_texts">
+                    <h1 class="hero_title"> Bienvenidos a Segura <span class="logo_decoration"> CCTV©</span></h1>
+                    <h2 class="hero_slogan">Sentite tranquilo!</h2>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <section class="presentation_container"> <!-- las clases "pc_xxx" indican que el elemento es hijo de presentation_container -->
+            <img class="pc_image"  src="images/index/segura_cctv_logo.png" alt="Logo de Segura CCTV"> 
+            <h2> <span class="pc_subtitle"> Segura</span> <span class="logo_decoration"> CCTV©</span></h2> <!--use clase logo_decoration para no crear una nueva -->
+            <p class="pc_info"> Somos una pequeña empresa dedicada a la venta e instalación de equipos CCTV (Circuito Cerrado de Televisión). Nuestro equipo está conformado por jóvenes egresados de escuela técnica, quienes han profundizado sus conocimientos en la vigilancia informática.</p>
+        </section>
     
+        <section class="content">
+            <div class="content_texts">
+                <h2 class="subtitle">Ventajas de tener un CCTV</h2>
+                <p class="content_p">Un circuito cerrado de televisión es un sistema de vigilancia que emplea cámaras de seguridad y que podemos encontrar cada vez con más frecuencia, incluso en entornos domésticos.</p>
+                <p class="content_p">La implementación más simple de este tipo de sistemas es la formada por una cámara conectada a un monitor o unidad de grabación. Desde este punto de partida se puede ampliar la instalación colocando cámaras adicionales. Si se desea, se puede complementar la instalación con otros elementos como, por ejemplo, sensores de movimiento. Entonces, las ventajas son:</p>
+                <ul class="content_list">
+                    <li class="content_list">Disuasión de la actividad delictiva</li>
+                    <li class="content_list">Disminuye los costes de las pólizas de seguros</li>
+                    <li class="content_list">Sensación de tranquilidad</li> 
+                    <li class="content_list">Privacidad (en equipos que lo permitan)</li>
+                </ul>
+            </div>
+            <figure class="content_images">
+                <img class="content_img" src="images/index/security.svg" alt="Seguridad y confianza">
+            </figure>
+            <figure class="content_images_left">
+                <img class="content_img" src="images/index/cloud.svg" alt="Archivos en la nube">
+            </figure>
+            <div class="content_texts">
+                <h2 class="subtitle">¿Nuestros datos quedan guardados?</h2>
+                <p class="content_p">Cuando hablamos de vigilar una propiedad, además de aprovechar los beneficios, también hay algunas contras, una de ellas podría ser el salvado de datos.</p>
+                <p class="content_p">Dependiendo el equipo que el cliente obtenga, tendrá este la posibilidad de alojar sus datos en la nube, o no. Dentro de los diferentes tipos de equipos que hay; uno puede optar por opciones que graben los datos en una unidad de almacenamiento, en la nube, ambos, o solo ver video en vivo y directo. Por ende, no habría que preocuparse por recuperar datos si hacemos una buena elección al momento de comprar!</p>
+            </div>
+        </section>   
+
+        <section class="testimony_container">
+            <h2 class="subtitle">Comentarios</h2>
+            <div class="testimony_grid">
+                <article class="testimony_item">
+                    <div class="testimony_person">
+                        <img class="testimony_img" src="images/index/men1.jpg" alt="Juan García">
+                        <div class="testimony_text">
+                            <h3 class="testimony_name"> Juan García</h3>
+                            <p class="testimony_ocupation">Comerciante</p>
+                        </div>
+                    </div>
+                    <p class="testimony_review"> Muy buen servicio! El trabajo de los chicos fue muy prolijo, responsable y con predisposición. Los recomiendo!</p>
+                </article>
+                <article class="testimony_item">
+                    <div class="testimony_person">
+                        <img class="testimony_img" src="images/index/men1.jpg" alt="Juan García">
+                        <div class="testimony_text">
+                            <h3 class="testimony_name"> Juan García</h3>
+                            <p class="testimony_ocupation">Comerciante</p>
+                        </div>
+                    </div>
+                    <p class="testimony_review"> No podía decidirme entre tantos productos que habia en el catálogo! Por suerte me contacté con ellos y me asesoraron de muy buena gana! 100% recomendable.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_container"> 
+            <p>Segura CCTV© 2021</p>
+            <div class="footer_icons">
+                <p>Contáctenos: </p>
+                <p> <a class="fab fa-instagram" href="https://www.instagram.com/segura.cctv/"> Instagram</a></p>
+                <p> <a class="fab fa-whatsapp"></a> +54 2262610261</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/78f4e9d4fd.js" crossorigin="anonymous"></script>
 </body>
 </html>
