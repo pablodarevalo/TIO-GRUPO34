@@ -1,0 +1,4 @@
+Nuestro se centra en la peticion de un cliente, que busca un renovacion a su pagina wed.
+el sitio wed es sobre su cerveceria.
+el busca una ronovacion en su apariencia y funcionalidad.
+Nosotros buscamos entregarle una pagina moderna y funcional.. con una barra de navegacion sencilla y concisa.
