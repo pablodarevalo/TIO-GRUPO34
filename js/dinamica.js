@@ -1,6 +1,7 @@
 "use strict"
 
-
+let espacio = document.getElementById('infoPlace')
+let botonMostrar = document.getElementById('show')
 let persona = [];
 
 
@@ -23,6 +24,11 @@ btnSubmit.addEventListener("click",()=>{
     persona.push(varios)
     alert("Gracias nos pondrenmos en contacto")
     console.log(persona)
+})
+
+
+botonMostrar.addEventListener("click",()=>{
+espacio.innerHTML += `<p>${persona}</p>`;   
 })
 
 
