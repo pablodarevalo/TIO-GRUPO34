@@ -3,3 +3,10 @@ A modificar:
 - barra de navageacion incompleta
 - aspecto de la pagina desactualizado
 - errores en js 
+<<<<<<< HEAD
+Fin
+=======
+
+Objetivos cumplidos: 
+- Actualización de aspecto
+>>>>>>> 967632dc5697e067ced2389cf25a88588e5be94d
