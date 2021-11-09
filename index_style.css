@@ -8,6 +8,17 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+
+
+form{
+display: flex;    
+}
+
+#btn-submit{
+height: 40px; 
+width: 60px;   
+}
+
 .header_container{
     width: 90%;
     margin: 0 auto; /*margen 0 arriba y abajo, auto a los costados*/
