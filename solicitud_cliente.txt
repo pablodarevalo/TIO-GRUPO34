@@ -1,6 +1,6 @@
 La pagina de la cerveceria se encuentra muy desactualizada. Quiero darle un nuevo aspecto y modificar cosas de su funcionalidad. 
 A modificar: 
-- barra de navageacion incompleta
+- barra de navagacion incompleta
 - aspecto de la pagina desactualizado
 - errores en js 
 <<<<<<< HEAD
@@ -9,4 +9,5 @@ Fin
 
 Objetivos cumplidos: 
 - Actualización de aspecto
+-Barra de navegacion completa y funcional 
 >>>>>>> 967632dc5697e067ced2389cf25a88588e5be94d
