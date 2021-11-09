@@ -3,3 +3,4 @@ A modificar:
 - barra de navageacion incompleta
 - aspecto de la pagina desactualizado
 - errores en js 
+Fin
