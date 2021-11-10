@@ -28,7 +28,7 @@ width: 60px;
 }
 .hero{
     height: 100vh;
-    background-image: url(../images/index/background-index.jpg);
+    background-image: url(./images/index/background-index.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; /* no funciona */
@@ -309,4 +309,8 @@ label{
 .footer_icons a{
     text-transform: lowercase; /*no logro poner los iconos y el texto a la misma altura*/ 
     font-weight: 400;   /*instaagram y whatsapp tienen distina fuente??*/
+}
+
+.form{
+    color: #EAE2E2;
 }
